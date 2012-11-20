@@ -1,4 +1,4 @@
-(load (expand-file-name "~/.quicklisp/slime-helper.el"))
+(load (expand-file-name "~/.local/slime-helper.el"))
 ;; Vi vil gerne bruge sbcl
 (setq inferior-lisp-program "sbcl --noinform --no-linedit")
 

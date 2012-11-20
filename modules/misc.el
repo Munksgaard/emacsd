@@ -42,10 +42,6 @@
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
 
-;; use shift + arrow keys to switch between visible buffers
-(require 'windmove)
-(windmove-default-keybindings)
-
 ;; auto-completion in minbuffer
 (icomplete-mode +1)
 
@@ -55,8 +51,8 @@
 (setq x-select-enable-clipboard t)
 
 ;; Zone mode, because it's fun
-(require 'zone)
-(zone-when-idle 60)
+;(require 'zone)
+;(zone-when-idle 60)
 
 ;; store all backup and autosave files in an autosave dir
 (defvar tmpfile-dir (concat emacsd-dir "tmpfiles"))

@@ -1,5 +1,5 @@
 (defvar custom-packages
-  '(magit magithub melpa gist volatile-highlights haskell-mode paredit solarized-theme)
+  '(magit magithub melpa gist volatile-highlights haskell-mode paredit solarized-theme sml-mode)
   "A list of packages to ensure are installed at launch.")
 
 (message "Loading emacs configuration" (file-name-directory load-file-name))
