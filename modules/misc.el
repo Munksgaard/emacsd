@@ -68,3 +68,6 @@
       `((".*" . ,temporary-file-directory)))
 (setq auto-save-file-name-transforms
       `((".*" ,temporary-file-directory t)))
+
+;; clear initial scratch screen:
+(setq initial-scratch-message nil)
